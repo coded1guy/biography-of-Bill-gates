@@ -1,0 +1,167 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: lightgrey;
+}
+* {
+  box-sizing: border-box;
+}
+@media (min-width: 391px) and (max-width: 768px) {
+	.navigation {
+	position: fixed;
+	width: 100%;
+}
+.navigation a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.navigation > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation > ul > li > a {
+  padding: 10px;
+  background: rgba(0,0,0,0.8);
+  font-size: 8px;
+}
+.navigation > ul > li > a:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.navigation > ul > li >  a:active {
+  background: black;
+}
+.navigation > ul > li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+#head {
+	background: white;
+	margin-bottom: 10%;
+}
+header {
+  font-size: 6vw;
+  text-align: center;
+}
+hr {
+  width: 50%;
+  color: maroon;
+}
+.prelude {
+	width: 90%;
+	background: white;
+	margin: 0 5% 0 5%;
+}
+.prepic {
+	border: 1px solid lightgrey;
+}
+#pretext {
+	font-size: 2vw;
+	color: maroon;
+	text-align: justify;
+	width: 100%;
+	padding-bottom: 20px;
+	paragraph-spacing: 3px;
+	background: white;
+	text-align: justify;
+}
+h3 {
+	color: maroon;
+	font-size: 5vw;
+}
+#charity {
+	width: 90%;
+	border: 1px solid lightgrey;
+	background: white;
+	margin: 0 5% 0 5%;
+}
+section {
+	width: 94%;
+	margin: 0 3% 0 3%;
+	font-size: 4vw;
+}
+}
+@media (min-width: 769px) {
+	.navigation {
+	position: fixed;
+	width: 100%;
+}
+.navigation a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.navigation > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation > ul > li > a {
+  padding: 10px;
+  background: rgba(0,0,0,0.8);
+  font-size: 18px;
+}
+.navigation > ul > li > a:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.navigation > ul > li >  a:active {
+  background: black;
+}
+.navigation > ul > li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+#head {
+	background: white;
+	margin-bottom: 10%;
+}
+header {
+  font-size: 4vw;
+  text-align: center;
+}
+hr {
+  width: 50%;
+  color: maroon;
+}
+.prelude {
+	width: 90%;
+	background: white;
+	margin: 0 5% 0 5%;
+}
+.prepic {
+	border: 1px solid lightgrey;
+}
+#pretext {
+	font-size: 1vw;
+	color: maroon;
+	text-align: justify;
+	width: 100%;
+	padding-bottom: 20px;
+	paragraph-spacing: 3px;
+	background: white;
+	text-align: justify;
+}
+h3 {
+	color: maroon;
+	font-size: 3vw;
+}
+#charity {
+	width: 90%;
+	border: 1px solid lightgrey;
+	background: white;
+	margin: 0 5% 0 5%;
+}
+section {
+	width: 94%;
+	margin: 0 3% 0 3%;
+	font-size: 28px;
+}
+}
